@@ -1,0 +1,108 @@
+/* font-family: 'Antic', sans-serif;
+font-family: 'Antic Didone', serif;
+font-family: 'Antic Slab', serif; */
+html {
+	font-family: 'Antic Slab', serif;
+	font-size: large;
+	text-align: center;
+	color: #361D2E;
+}
+
+a {
+	text-decoration: none;
+	color: #86A397;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Antic Didone', serif;
+}
+
+figcaption, h6 {
+	font-family: 'Antic', sans-serif;
+}
+
+.open-sidebar {
+	z-index: 1;
+	background-color: #CBC0AD;
+	font-size: large;
+	font-family: 'Antic Slab', serif;
+	width: 50px;
+	position: fixed;
+	top: 20px;
+	left: 20px;
+	cursor: pointer;
+	border-radius: 20px;
+}
+
+#sidebar {
+	height: 100%; /* 100% Full-height */
+	width: 0; /* 0 width - change this with JavaScript */
+	position: fixed; /* Stay in place */
+	z-index: 2; /* Stay on top */
+	top: 0;
+	left: 0;
+	background-color: #E5BE9E; /* Black*/
+	overflow-x: hidden; /* Disable horizontal scroll */
+	padding-top: 60px; /* Place content 60px from the top */
+	transition: 0.8s;
+	/* 0.5 second transition effect to slide in the sidebar */
+}
+
+#sidebar a {
+	padding: 10px;
+	font-size: 25px;
+	display: block;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+.whole-thing {
+	display: flex;
+	flex-flow: column wrap;
+}
+
+div {
+	margin: 20px;
+	padding: 20px;
+	border-radius: 20px;
+	text-align: justify;
+	text-justify: auto;
+	text-align-last: center;
+}
+
+.yellow{
+	background-color: #E5BE9E;
+}
+
+.shortline {
+	width: 50%;
+}
+
+table{
+	width:100%;
+}
+
+.table-wrapper{
+	width:100%;
+}
+
+.button {
+	padding: 20px;
+	margin: 20px;
+	font-family: 'Antic', sans-serif;
+	background-color: #E1B07E;
+	border-radius: 20px;
+}
+
+.add-button {
+	width: 100%;
+	background-color: #E1B07E;
+	color: #361D2E;
+	border: none;
+	cursor: pointer;
+}
+
+.form-wrapper {
+	margin-left: auto;
+	margin-right: auto;
+}
