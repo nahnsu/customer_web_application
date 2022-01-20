@@ -5,4 +5,4 @@ Project completed during Per Scholas training, demonstrating knowledge of CRUD f
 Possible improvements:
 
 - addition of JUnit testing
-- addition of Spring Security, as the log in here is hard coded with admin account for security, rather than dynamically set (which would be more ideal)
+- addition of Spring Security, as the log in here is hard coded with admin account for security, rather than dynamically set
